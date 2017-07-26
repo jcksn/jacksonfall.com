@@ -1,4 +1,24 @@
 @charset "UTF-8";
+
+@font-face {
+	font-family: 'Brown';
+	src: url('assets/fonts/Brown-Regular.eot');
+	src: url('assets/fonts/Brown-Regular.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Brown-Regular.woff') format('woff'),
+		url('assets/fonts/Brown-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brown';
+	src: url('assets/fonts/Brown-Light.eot');
+	src: url('assets/fonts/Brown-Light.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/Brown-Light.woff') format('woff'),
+		url('assets/fonts/Brown-Light.ttf') format('truetype');
+	font-weight: 400;
+	font-style: lighter;
+}
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
